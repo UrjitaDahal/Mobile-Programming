@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="50dp">
+        <EditText
+            android:id="@+id/name"
+            android:hint="Enter Name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"/>
+
+        <EditText
+            android:id="@+id/address"
+            android:hint="Enter Address"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"/>
+
+
+        <RadioGroup
+            android:id="@+id/genderGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:text="Male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/female"
+                android:text="Female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+
+        <CheckBox
+            android:id="@+id/hobby1"
+            android:text="Reading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/hobby2"
+            android:text="Traveling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <Spinner
+            android:id="@+id/programSpinner"
+            android:entries="@array/prglist"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <Button
+            android:id="@+id/submit"
+            android:text="Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
