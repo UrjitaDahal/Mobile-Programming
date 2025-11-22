@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registration3">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration Form"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Name:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ename"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:hint="Enter a name"
+        android:inputType="text"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Address:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/eaddress"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Address"
+        android:inputType="text"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Email:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/eemail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter a email"
+        android:inputType="text"
+        android:textStyle="italic"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+
+        android:text="Password:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/epassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter a password"
+        android:inputType="textPassword"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/male"
+            android:text="Male"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/female"
+            android:text="Female"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobbies"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gaming"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/check1"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dancing"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/check2"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reading"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/check3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/countrylist"
+        android:spinnerMode="dropdown"
+        android:id="@+id/spin"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/result"/>
+</LinearLayout>
