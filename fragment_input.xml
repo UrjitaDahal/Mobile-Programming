@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/len"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Length"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/wid"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Width"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/hei"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Height"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+</LinearLayout>
+
+    <!--Q2 :<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/cp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Enter Cost Price"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/sp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Enter Selling Price"
+            android:inputType="numberDecimal"/>
+
+        <Button
+            android:id="@+id/btnCalc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate"/>
+
+    </LinearLayout>-->
