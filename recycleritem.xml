@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/person"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/twitter"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/txtuid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID:"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/person"/>
+    <TextView
+        android:id="@+id/txtuname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/person"
+        android:layout_below="@+id/txtuid"/>
+
+
+    <TextView
+        android:id="@+id/txtuadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/person"
+        android:layout_below="@+id/txtuname"/>
+    <TextView
+        android:id="@+id/txtsalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salary:"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/person"
+        android:layout_below="@+id/txtuadd"/>
+
+</RelativeLayout>
